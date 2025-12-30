@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: #0f0f0f;
+  font-family: sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+.hidden { display: none; }
+
+#loader {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  font-size: 22px;
+}
+
+#chat {
+  height: 70vh;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.msg {
+  background: #1f1f1f;
+  padding: 10px 14px;
+  margin: 8px 0;
+  border-radius: 12px;
+  width: fit-content;
+}
+
+#proposal, #final {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: #ff4d6d;
+  color: white;
+  cursor: pointer;
+}
